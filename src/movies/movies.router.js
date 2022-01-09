@@ -2,12 +2,12 @@ const router = require("express").Router({ mergeParams: true });
 const controller = require("./movies.controller");
 const methodNotAllowed = require("../errors/methodNotAllowed");
 
-router.route("/").all(methodNotAllowed);
+router.route("/").get(controller.list).all(methodNotAllowed);
 
-router.route("/:movieId").all(methodNotAllowed);
+router.route("/:movieId([0-9]+)").get(controller.read).all(methodNotAllowed);
 
-router.route("/:movieId/theaters").all(methodNotAllowed);
+router.route("/:movieId([0-9]+)/theaters").get(controller.readTheaterList).all(methodNotAllowed);
 
-router.route("/:movieId/reviews").all(methodNotAllowed);
+router.route("/:movieId([0-9]+)/reviews").get(controller.readMovieReviews).all(methodNotAllowed);
 
 module.exports = router;
