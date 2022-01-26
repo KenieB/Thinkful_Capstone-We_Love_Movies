@@ -2,13 +2,13 @@
 > ### Back-end RESTful API for mock database storing movies, theaters, critics, and reviews.
 >
 > #### &nbsp;&nbsp;&nbsp;`Task:`&nbsp;&nbsp; *Set up a database and build out specific routes for database access and manipulation.*
-> ---
-> ### &nbsp;&nbsp;&nbsp;[\[ Deployed API \]](https://we-love-movies-prod.herokuapp.com/)
 > 
 > ### &nbsp;&nbsp;&nbsp; Built with:
-> #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Express &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PostgreSQL &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Knex &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; JavaScript <br>&nbsp;
-
----
+> #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Express &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PostgreSQL &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Knex &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; JavaScript
+>
+> ---
+>
+> ### &nbsp;&nbsp; Access Deployed API: &nbsp; *[\[ WeLoveMovies \]](https://we-love-movies-prod.herokuapp.com/)* <br>&nbsp;
  
 ## API Routes
 > | Method | Path | API Behavior |
