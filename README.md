@@ -8,7 +8,7 @@
 >
 > ---
 >
-> ### &nbsp;&nbsp; Access Deployed API: &nbsp; *[\[ WeLoveMovies \]](https://we-love-movies-prod.herokuapp.com/)* <br>&nbsp;
+> ### &nbsp;&nbsp; Access Deployed API: &nbsp; *[\[ WeLoveMovies \]](https://we-love-movies-prod.herokuapp.com/movies)* <br>&nbsp;
  
 ## API Routes
 > | Method | Path | API Behavior |
